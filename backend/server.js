@@ -46,6 +46,7 @@ app.post("/submitForm", async (req, res) => {
         Name: ${formData.name}
         Father's Name: ${formData.fatherName}
         Mother's Name: ${formData.motherName}
+        Gender: ${formData.gender}
         Phone Number: ${formData.phoneNumber}
         Email: ${formData.email}
         Date of Birth: ${formData.dateOfBirth}
